@@ -1,0 +1,31 @@
+{
+  "name": "myapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "core/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danaguus/test.git"
+  },
+  "author": "daniel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danaguus/test/issues"
+  },
+  "homepage": "https://github.com/danaguus/test#readme",
+  "dependencies": {
+    "@types/node": "^16.7.13",
+    "body-parser": "^1.19.0",
+    "es6-promise": "^4.2.8",
+    "express": "^4.17.1",
+    "helmet": "^4.6.0",
+    "helper": "0.0.13",
+    "https": "^1.0.0",
+    "loader": "^2.1.1",
+    "node-fetch": "^3.0.0"
+  }
+}
